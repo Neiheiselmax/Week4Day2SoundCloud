@@ -1,0 +1,35 @@
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<title>SoundCloud Music App</title>
+	</head>
+	<body>
+
+	<div class="row">
+	<div id="bgimage" class="col-lg-4">
+	</div>
+	<form id="search" class="col-lg-6">
+	    <div class="input-group">
+	      <input type="text" class="form-control" placeholder="Search for..." id="input">
+	    </div>
+	    	</form><!-- /input-group -->
+	  </div>
+
+
+	<h1>Your Results:</h1>
+	<div class="results">	
+	</div>
+
+
+	<div class="player">
+	<audio autoplay src="http://api.soundcloud.com/tracks//stream?client_id=03e4633e2d85874a921380e47cac705d" controls>
+	</audio>
+	</div>
+
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+	<script src="JS/main.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+	</html>
